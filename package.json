@@ -1,0 +1,26 @@
+{
+  "name": "xmtp-inbox-auth",
+  "private": true,
+  "version": "0.0.22",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@rainbow-me/rainbowkit": "^0.10.0",
+    "buffer": "^6.0.3",
+    "ethers": "^5.0.0",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "wagmi": "^0.10.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.9",
+    "@types/react-dom": "^18.0.1",
+    "@vitejs/plugin-react": "^1.3.0",
+    "typescript": "^4.7.2",
+    "vite": ">=3.2.0",
+    "vite-plugin-singlefile": "^0.13.3"
+  }
+}
